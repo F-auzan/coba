@@ -1,0 +1,73 @@
+header {
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed;
+}
+body {
+    background-color: #696969;
+}
+.judul {
+    font-family: cambria;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: black;
+}
+header h1 {
+    color: #c4af2b;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+.judul ul {
+    margin: 0;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+    padding: 5px;
+}
+.judul ul li {
+    display: inline-block;
+}
+.judul ul li a {
+    display: block;
+    padding: 15px;
+    color: #c4af2b;
+    text-decoration: none;
+}
+.judul ul li a:hover {
+    display: block;
+    color: #fff;
+    background-color: #c4af2b;
+}
+.foto {
+    max-width: auto;
+    height: 100%;
+    position: relative;
+}
+.foto1 {
+    background: url(../img/foto1.jpg) no-repeat center;
+    height: 1333px;
+    width: 1333px;
+    right: 250px;
+    background-size: cover;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    margin-top: 60%;
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color: #c4af2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
